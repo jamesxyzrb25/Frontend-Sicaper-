@@ -1,0 +1,119 @@
+<div class="main d-block">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12 bg-transparent">
+        <div class="row mt-2 mb-4 borderh">
+          <div class="col-12 col-sm-9 d-flex align-items-end justify-content-start">
+            <p class="mb-0 gbold2 displayD">SICAPER</p>&nbsp;&nbsp;
+            <p class="mb-0 d-none d-sm-block glight2 displayE">Usuarios</p>
+          </div>
+          <div class="col-12 d-flex d-sm-none align-items-end justify-content-start">
+            <p class="mb-0 glight2 displayE">Usuarios</p>
+          </div>
+          <div class="col-0 col-sm-3 d-none d-sm-flex align-items-center justify-content-end paddingzero">
+            <div class="d-flex mb-1 align-items-center justify-content-center">
+              <span class="h2 text-white text-decoration-none"><i class="fas fa-bars"></i></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="card-body d-flex">
+          <button class="btn btn-primary btn-sm ml-auto" routerLink="/nuevoUsuario" >Nuevo usuario</button>
+        </div>
+      </div>
+    </div>
+    <!--Barra lateral izquierda-->
+    <div class="col-sm mr-sm-2 d-none d-sm-block bgmenucb">
+      <div class="row paddingzero">
+        <div class="col-12 mt-4 mb-1 selmenucb">
+          <p class="mb-0 pt-2 pb-2 gmedium2 displayF"><a class="nav-link" routerLink='/usuario'>Usuarios</a></p>
+        </div>
+        <div class="col-12 mt-1 mb-0 ">
+          <p class="mb-0 pt-2 pb-2 gmedium2 displayF"><a class="nav-link" routerLink='/personal'>Personal</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-sm-10 mr-sm-2 bgcontentcb">
+      <div class="row h-min-75">
+        <div class="col-12 d-block d-sm-none">
+          <div class="row bg-orange">
+            <div class="col-12 text-right text-md-center btn-toogle-menu">
+              <div class="row h-100">
+                <div class="col-12 align-self-center">
+                  <span class="h2 text-white text-decoration-none"><i class="fas fa-bars"></i></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- aqui va el menu flotante -->
+          <div class="bg-orange menu-float py-2 px-3 py-sm-4">
+            <ul class="list-unstyled text-right gmedium">
+              <li><a class="h5 text-decoration-none text-white" href="#" onclick="changeContent(3)">Mi Perfil</a></li>
+              <li><hr class="border-white my-2"></li>
+              <li><a class="h5 text-decoration-none text-white" href="#">Soporte</a></li>
+              <li><a class="h5 text-decoration-none text-white" href="#">Salir</a></li>
+            </ul>
+          </div>
+        </div>
+        <!--Contnedor con el formulario-->
+        <div class="example-container">
+          <form [formGroup]="options">
+          <h1>REGISTRO DE USUARIO</h1>
+          <div>
+            <label>DNI:</label>
+            <mat-form-field appearance="fill"
+              [hideRequiredMarker]="hideRequiredControl.value"
+              [floatLabel]="floatLabelControl.value">
+              <input matInput type="text" placeholder="Ingrese su nombre" required>
+            </mat-form-field>
+          </div>
+          <div>
+            <label>Personal:</label>
+            <mat-form-field appearance="fill"
+              [hideRequiredMarker]="hideRequiredControl.value"
+              [floatLabel]="floatLabelControl.value">
+              <input matInput placeholder="Ingrese su apellido" required>
+            </mat-form-field>
+          </div>
+          <div>
+            <label>Usuario:</label>
+            <mat-form-field appearance="fill"
+              [hideRequiredMarker]="hideRequiredControl.value"
+              [floatLabel]="floatLabelControl.value">
+              <input matInput placeholder="Ingrese su usuario" required>
+            </mat-form-field>
+          </div>
+          <div>
+            <label>Rol:</label>
+            <mat-form-field appearance="fill"
+              [hideRequiredMarker]="hideRequiredControl.value"
+              [floatLabel]="floatLabelControl.value">
+              <input matInput placeholder="Ingrese el rol" required>
+            </mat-form-field>
+          </div>
+          <div>
+            <label>Area:</label>
+            <mat-form-field appearance="fill"
+              [hideRequiredMarker]="hideRequiredControl.value"
+              [floatLabel]="floatLabelControl.value">
+              <input matInput placeholder="Ingrese el area" required>
+            </mat-form-field>
+          </div>
+          <div>
+            <label>Estado Usuario:</label>
+            <mat-form-field appearance="fill"
+              [hideRequiredMarker]="hideRequiredControl.value"
+              [floatLabel]="floatLabelControl.value">
+              <input matInput placeholder="Ingrese el estado del usuario" required>
+            </mat-form-field>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+

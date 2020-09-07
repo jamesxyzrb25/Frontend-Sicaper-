@@ -1,0 +1,507 @@
+.gbold{
+    font-family: 'GothamBold', sans-serif;
+    letter-spacing: -0.07em;
+}
+.glight{
+    font-family: 'GothamLight', sans-serif;
+}
+.gmedium{
+    font-family: 'GothamMedium', sans-serif;
+}
+
+.form-control{
+    background-color: transparent;
+    border-color: transparent;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-radius: 0px;
+}
+.form-control:focus{
+    background-color: transparent;
+    border-color: transparent;
+    box-shadow: none;
+}
+.form-control.white{
+    border-bottom: 3px solid #ffffff;
+    color: #ffffff;
+}
+.form-control.gray{
+    border-bottom: 3px solid #333;
+    color: #333;
+}
+.form-control.inputbggray{
+    background: #ededed;
+    color: #333;
+}
+.form-control.solid-grey{
+    background-color: #e4e4e4;
+}
+.h-min-100{
+    min-height: 100vh;
+}
+.h-min-75{
+    min-height: 75vh;
+}
+.bg-red{
+    background-color: #ce0405;
+}
+.bg-soft-gray{
+    background-color: #e4e4e4;
+}
+.bg-transparent{
+    background: transparent;
+}
+.bg-orange{
+    background-color: #f5bc0d;
+}
+.border-3{
+    border: 5px solid white !important;
+}
+
+
+/* ESTILOS LOGIN */
+.fondo-login{
+    background-image: url('../imgs/fondo-login.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+.bg-hide-1{
+    background: transparent;
+}
+/* END ESTILOS LOGIN */
+
+/* ESTILOS LOGIN-ADMIN */
+.fondo-login-admin{
+    min-height: 100vh;
+    min-width: 100vw;
+}
+.border-login-admin{
+    border-width: 3px;
+    border-style: solid;
+}
+.border-login-admin.gray{
+    border-color: #333;
+    border-radius: 35px 7px;
+}
+.border-login-admin.white{
+    border-color: #FFF;
+    border-radius: 7px 35px;
+}
+/* END ESTILOS LOGIN-ADMIN */
+
+/* ESTILOS REGISTRO ADMIN */
+.special-position-button{
+    display: block;
+    position: absolute;
+    bottom: -25px;
+    text-align: center;
+    width: 100%;
+    left: 0px;
+}
+.special-postion-icono-persona{
+    position: absolute;
+    right: -103px;
+    top: -100px;
+    z-index: 2;
+}
+/* END ESTILOS REGISTRO ADMIN */
+
+/* ESTILOS CONDICION */
+.special-position-menu{
+    position: absolute;
+    left: -75px;
+    top: -28px;
+    z-index: 2;
+}
+.tabs-container{
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+.tab{
+    padding: 9px 30px;
+    border: 1px solid #878787;
+    border-color: #878787;
+    border-bottom: 0px;
+    border-radius: 10px 10px 0px 0px;
+    margin-right: 1px;
+    margin-left: 1px;
+    color: #FFF;
+    background-color: #878787;
+    cursor: pointer;
+}
+.tab.active{
+    color: #333;
+    background-color: #FFF;
+}
+.table-model thead th{
+    border-bottom: 0px;
+}
+.table-model tbody td{
+    border-top: 0px;
+}
+.tab-body{
+    display: none;
+}
+.tab-body.active{
+    display: block;
+}
+
+
+.border-danger-resumen{
+    border-left: 5px solid #dc3545 !important
+}
+.menu-float{
+    position: absolute;
+    right: 0px;
+    min-width: 180px;
+    opacity: 0;
+    z-index: -1;
+    border-radius: 0px 0px 0px 10px;
+}
+.menu-float.active{
+    opacity: 1;
+    z-index: 3;
+}
+.btn-toogle-menu{
+    cursor: pointer;
+}
+.btn-toogle-menu.active{
+    background-color: #f5bc0d;
+}
+
+.separador.white{
+    border-color: #FFF;
+}
+
+.separador-bloque-inf{
+    border-left: 4px solid #ce0405;
+}
+
+.mb-red-underline{
+    border-bottom: 4px solid #ce0405;
+}
+
+.left-3{
+    left: 17px;
+}
+/* END ESTILOS CONDICION */
+
+/* ESTILOS ADMINISTRADOR */
+.bl-3-grey{
+    border-left: 4px solid #f2f2f2;
+}
+.br-3-grey{
+    border-left: 4px solid #f2f2f2;
+}
+.border-bottom-3{
+    border-bottom: 4px solid #333;
+}
+.border-left-1{
+    border-left: 2px solid #878787;
+}
+.text-soft-grey{
+    color: #878787;
+}
+
+@media (min-width: 768px) {
+    .h-md-100{
+        min-height: 100vh;
+    }
+    .h-md-70{
+        min-height: 70vh;
+    }
+    .h-md-30{
+        min-height: 30vh;
+    }
+}
+
+.gbold2{
+    font-family: 'GothamBold', sans-serif;
+    color: #f5bc0d;
+    letter-spacing: -0.07em;
+}
+
+.gbold3{
+    font-family: 'GothamBold', sans-serif;
+    color: #686868;
+    letter-spacing: -0.07em;
+}
+
+.gbold4{
+    font-family: 'GothamBold', sans-serif;
+    color: #ffffff;
+    letter-spacing: -0.07em;
+}
+
+.gmedium2{
+    font-family: 'GothamMedium', sans-serif;
+    color: #ffffff;
+    letter-spacing: -0.07em;
+}
+
+.gmedium3{
+    font-family: 'GothamMedium', sans-serif;
+    color: #939393;
+    letter-spacing: -0.07em;
+}
+
+.gmedium4{
+    font-family: 'GothamMedium', sans-serif;
+    color: #000000;
+    letter-spacing: -0.07em;
+}
+
+.gmedium5{
+    font-family: 'GothamMedium', sans-serif;
+    color: #6c8dc4;
+    letter-spacing: -0.07em;
+}
+
+.gmedium6{
+    font-family: 'GothamMedium', sans-serif;
+    color: #006f9b;
+    letter-spacing: -0.07em;
+}
+
+.gmedium7{
+    font-family: 'GothamMedium', sans-serif;
+    color: #003770;
+    letter-spacing: -0.07em;
+}
+
+.glight2{
+    font-family: 'GothamLight', sans-serif;
+    color: #686868;
+    letter-spacing: -0.07em;
+}
+
+.displayA {
+    font-size: 2.0rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.displayB {
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.displayC {
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.displayD {
+    font-size: 2.2rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.displayE {
+    font-size: 1.5rem;
+    font-weight: 1000;
+    line-height: 1.2;
+}
+
+.displayF {
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.displayG {
+    font-size: 1.3rem;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.displayH {
+    font-size: 1.1rem;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.displayI {
+    font-size: 1.0rem;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.displayJ {
+    font-size: 1.8rem;
+    font-weight: 1000;
+    line-height: 1.2;
+}
+
+.img1 {
+    height: 1.8rem;
+}
+
+.img2 {
+    width: 5.1rem;
+    height: 5.9rem;
+}
+
+.img3 {
+    width: 6.5rem;
+    height: 5.9rem;
+}
+
+.img4 {
+    width: 4.4rem;
+    height: 1.7rem;
+}
+
+.img5 {
+    width: 1.87rem;
+    height: 1.87rem;
+}
+
+.img6 {
+    width: 1.88rem;
+    height: 1.69rem;
+}
+
+.prof {
+    background:  #939393;
+    border-top-right-radius: 35px;
+}
+
+.estu {
+    background:  #6f6f6f;
+    border-top-right-radius: 35px;
+}
+
+.profA {
+    background:  #f5bc0d;
+    height: 0.75rem;
+    visibility: visible;
+}
+
+.estuA {
+    background:  #f5bc0d;
+    height: 0.75rem;
+    visibility: hidden;
+}
+
+.comuni {
+    background:  #f5bc0d;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    width: 3.69rem;
+    height: 7.25rem;
+}
+
+.comuni2 {
+    background:  #f5bc0d;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    width: 3.69rem;
+    height: 7.25rem;
+}
+
+.bgmenucb{
+    background: #f5bc0d;
+    border-top-right-radius: 20px;
+}
+
+.bgcontentcb{
+    background: #f5f5f5;
+    border-top-right-radius: 35px;
+}
+
+.bgrightcb{
+    background: #f5f5f5;
+    width: auto;
+}
+
+.bgcurso1 {
+    background:  #ffffff;
+    border-top-right-radius: 35px;
+    border-left: 31px solid transparent;
+    border-image: url('../imgs/bcurso1.png') 11 30 round;
+    width: 16.93rem;
+    height: 7.31rem;
+}
+
+.bgcurso2 {
+    background:  #ffffff;
+    border-top-right-radius: 35px;
+    border-left: 31px solid transparent;
+    border-image: url('../imgs/bcurso2.png') 11 30 round;
+    width: 16.93rem;
+    height: 7.31rem;
+}
+
+.bgcurso3 {
+    background:  #ffffff;
+    border-top-right-radius: 35px;
+    border-left: 31px solid transparent;
+    border-image: url('../imgs/bcurso3.png') 11 30 round;
+    width: 16.93rem;
+    height: 7.31rem;
+}
+
+.bgcurso4 {
+    background:  #ffffff;
+    border-top-right-radius: 35px;
+    border-left: 31px solid #006f9b;
+}
+
+.bgcursoA{
+    width: 140px;
+    height: auto;
+}
+
+.bgcursoB{
+    width: 95px;
+    height: auto;
+}
+
+.bgcursoC{
+    width: 236px;
+    height: auto;
+}
+
+.bgcursoD{
+    width: 236px;
+    height: 30px;
+}
+
+.paddingzero {
+    padding: 0px !important;
+}
+
+.paddingzerolr {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.paddingzerotb {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+
+.borderform  {
+    border-left: 10px solid #f5bc0d;
+}
+
+.borderh  {
+    border-bottom: 5px solid #f5bc0d;
+}
+
+.selmenucb{
+    background: #10ad62;
+}
+
+.seltablerocb{
+    background: #f5f5f5;
+}
+/* END ESTILOS ADMINISTRADOR */

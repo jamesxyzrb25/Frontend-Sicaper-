@@ -1,0 +1,67 @@
+<div class="main d-block">
+        <div class="fondo-login d-flex align-items-center">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 d-flex mt-5 align-items-center justify-content-center">
+                        <p class="gbold2 display-4 mb-0">SICAPER</p>
+                    </div>
+                    <div class="col-12 d-flex align-items-center justify-content-center">
+                        <p class="gbold3 displayA mb-0">La Molina</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 bg-hide-1">
+                        <div class="container py-3">
+                            <div class="row justify-content-center">
+                                <div class="col-md-12 d-flex align-items-center justify-content-center">
+                                    <div class="col-md-6">
+                                        <div>
+                                            <div class="d-block mt-3">
+                                                <p class="gmedium3 mb-0 displayB">Gestor de Personal</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <div class="d-flex align-items-center justify-content-center">
+                                        <div class="text-center">
+                                            <div class="d-block mt-3">
+                                                <img src="assets/imgs/logo-molina.png" class="img3" alt="docente"><br>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 borderform">
+                                    <form action="" #formLogin="ngForm" (ngSubmit)="onLogin()">
+                                    <h1 class="h3 mb-3 font-weight-normal" *ngIf="!isError">Login</h1>
+                                      <div class="alert alert-danger" role="alert" *ngIf="isError">Something is wrong!
+                                      </div>
+                                        <div class="form-group">
+                                            <input
+                                              type="text"
+                                              class="form-control inputbggray gmedium3 displayC"
+                                              name="usuario" id="" aria-describedby="helpId"
+                                              placeholder="Usuario"
+                                              [(ngModel)]="user.user">
+                                        </div>
+                                        <div class="form-group">
+                                            <input
+                                              type="password"
+                                              class="form-control inputbggray gmedium3 displayC"
+                                              name="contrasena" id="" aria-describedby="helpId"
+                                              placeholder="Contraseña"
+                                              [(ngModel)]="user.password">
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="submit" class="btn btn-warning text-white" id="ingresar" value="Ingresar"  >
+                                        </div>
+                                    </form>
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+

@@ -1,0 +1,20 @@
+[
+  {
+    "dni": "1234",
+    "personal": "usuarioa",
+    "usuario": "admin",
+    "rol": "administrador",
+    "area": "Sistemas",
+    "estadoUsuario": "Activo"
+  },
+  {
+    "dni": "12345",
+    "personal": "usuariob",
+    "usuario": "admin",
+    "rol": "administrador1",
+    "area": "Sistemas",
+    "estadoUsuario": "Activo"
+  }
+]
+
+
